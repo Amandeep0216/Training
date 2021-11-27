@@ -10,4 +10,7 @@ public class ShoppingapiApplication {
 		SpringApplication.run(ShoppingapiApplication.class, args);
 	}
 
+	//	System.out.println("hello");
+	//hello
+
 }
