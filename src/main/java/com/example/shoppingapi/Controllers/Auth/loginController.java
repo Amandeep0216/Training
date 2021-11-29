@@ -23,6 +23,8 @@ public class loginController {
     public response getallUsers() {
         return insertData.meow();
     }    
+    
+    // Welcome
     @GetMapping("/welcome")
     public String welcome(){
     return "Welcome to my Heroku Website";
