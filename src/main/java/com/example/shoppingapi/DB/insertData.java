@@ -7,6 +7,8 @@ import com.example.shoppingapi.Helpers.authlogin;
 import com.example.shoppingapi.Helpers.response;
 import com.example.shoppingapi.Helpers.user;
 
+import org.springframework.web.bind.annotation.GetMapping;
+
 public class insertData {
     static List <user> userList= new ArrayList<>();
 
@@ -31,5 +33,6 @@ public class insertData {
     public static response meow() {
         return new response(200, "Fetched All Users Successfully", userList);
     }
+
 }
     
